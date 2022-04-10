@@ -26,6 +26,8 @@ For the backend, we have the following requirements
 - Create APIs for basic blogging CRUD for the admin
 - APIs for the blog frontend (listing, readig blogs and comments)
 - public facing API for integration with a mobile app (same functionality as the blog webpage)
+- Search for articles  
+- Categories for articles  
 
 ## git
 Please work on seperate branches for major features. This is crucial for code review.
