@@ -5,6 +5,7 @@ Your task is to create a **blogging site** with ability for users to comment and
 
 ## Details
 Create a repository **on your personal github account**. Commit all your work to that repository.  
+Host the project on a platform of your choice for demo.  
 **Code review will be done.**  
 Please add clear and concise commit messages to your commits.  
 **Provide documentation** / usage information for all APIs in the backend.
@@ -28,6 +29,9 @@ For the backend, we have the following requirements
 - public facing API for integration with a mobile app (same functionality as the blog webpage)
 - Search for articles  
 - Categories for articles  
+- APIs to handle media upload(for embedding media within blogs).
+
+The blog content should be HTML (for Richtext support). 
 
 ## git
 Please work on seperate branches for major features. This is crucial for code review.
