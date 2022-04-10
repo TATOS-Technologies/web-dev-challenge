@@ -1,7 +1,18 @@
 # Task for Full-stack Developer
 
 ## Summary
-Your task is to create a **blogging site** with ability for users to comment and a **public facing API** for external apps to fetch data.  
+Your task is to create a **personal blogging site** with ability for users to comment and a **public facing API** for external apps to fetch data.  
+Only admin has the ability to post blogs. The blog content should have RichText support.  
+Admin should be provided with a richtext editor.
+Readers will be able to comment and like the articles posted.  
+The public API for external apps should support the following:
+- authenticate a reader (for likes and comments)
+- fetching a list of blogs items
+- fetching a single blog item (including comments)
+- like a blog 
+- post comments
+- fetch comments by a user
+- fetch list of liked articles
 
 ## Details
 Create a repository **on your personal github account**. Commit all your work to that repository.  
@@ -25,7 +36,7 @@ For the backend, we have the following requirements
 - Use a **noSQL** database
 - Use **node.js** with framework of your choice (prefer nest.js)
 - Create APIs for basic blogging CRUD for the admin
-- APIs for the blog frontend (listing, readig blogs and comments)
+- APIs for the blog frontend (listing, readig blogs,likes and comments)
 - public facing API for integration with a mobile app (same functionality as the blog webpage)
 - Search for articles  
 - Categories for articles  
